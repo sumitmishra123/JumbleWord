@@ -3,19 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0C873138B6FFDE37D0AD2C /* Pods_WikiFillSumitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FC7B761B2C61E9568E70A2 /* Pods_WikiFillSumitApp.framework */; };
+		463ECB7423BDF73500415081 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463ECB7323BDF73500415081 /* LevelViewController.swift */; };
+		4652EB4423BDFBD200AAD8E2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652EB4323BDFBD200AAD8E2 /* GameViewController.swift */; };
+		465E4CA123BE45DC00630A77 /* DragInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4C9F23BE45DB00630A77 /* DragInteraction.swift */; };
+		465E4CA223BE45DC00630A77 /* DropInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CA023BE45DB00630A77 /* DropInteraction.swift */; };
+		465E4CA523BE462600630A77 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CA423BE462600630A77 /* LevelViewModel.swift */; };
+		465E4CA823BE465000630A77 /* WikiPediaPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CA723BE465000630A77 /* WikiPediaPageModel.swift */; };
+		465E4CB123BE46AC00630A77 /* NetworkManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CAB23BE46AC00630A77 /* NetworkManagerWrapper.swift */; };
+		465E4CB223BE46AC00630A77 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CAC23BE46AC00630A77 /* ApiCall.swift */; };
+		465E4CB423BE46AC00630A77 /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CAE23BE46AC00630A77 /* ResponseObject.swift */; };
+		465E4CB523BE46AC00630A77 /* RequestParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465E4CAF23BE46AC00630A77 /* RequestParameter.swift */; };
 		466FE92E23BA6476002D6AA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FE92D23BA6476002D6AA3 /* AppDelegate.swift */; };
 		466FE93023BA6476002D6AA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FE92F23BA6476002D6AA3 /* SceneDelegate.swift */; };
 		466FE93223BA6476002D6AA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FE93123BA6476002D6AA3 /* ViewController.swift */; };
 		466FE93523BA6476002D6AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466FE93323BA6476002D6AA3 /* Main.storyboard */; };
 		466FE93723BA6478002D6AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466FE93623BA6478002D6AA3 /* Assets.xcassets */; };
 		466FE93A23BA6478002D6AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466FE93823BA6478002D6AA3 /* LaunchScreen.storyboard */; };
+		466FE94423BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466FE94223BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.swift */; };
+		466FE94523BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466FE94323BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.xib */; };
+		46AA758823BFF3B600B04961 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA758723BFF3B600B04961 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20FC7B761B2C61E9568E70A2 /* Pods_WikiFillSumitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiFillSumitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463ECB7323BDF73500415081 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		4652EB4323BDFBD200AAD8E2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		465E4C9F23BE45DB00630A77 /* DragInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragInteraction.swift; sourceTree = "<group>"; };
+		465E4CA023BE45DB00630A77 /* DropInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropInteraction.swift; sourceTree = "<group>"; };
+		465E4CA423BE462600630A77 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
+		465E4CA723BE465000630A77 /* WikiPediaPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPediaPageModel.swift; sourceTree = "<group>"; };
+		465E4CAB23BE46AC00630A77 /* NetworkManagerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerWrapper.swift; sourceTree = "<group>"; };
+		465E4CAC23BE46AC00630A77 /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		465E4CAE23BE46AC00630A77 /* ResponseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
+		465E4CAF23BE46AC00630A77 /* RequestParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestParameter.swift; sourceTree = "<group>"; };
 		466FE92A23BA6476002D6AA3 /* WikiFillSumitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiFillSumitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466FE92D23BA6476002D6AA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		466FE92F23BA6476002D6AA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,11 @@
 		466FE93623BA6478002D6AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		466FE93923BA6478002D6AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466FE93B23BA6478002D6AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466FE94223BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiFillInBlanksCollectionViewCell.swift; sourceTree = "<group>"; };
+		466FE94323BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WikiFillInBlanksCollectionViewCell.xib; sourceTree = "<group>"; };
+		46AA758723BFF3B600B04961 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8D8882EB58ADCC4FB4D1F2D7 /* Pods-WikiFillSumitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiFillSumitApp.release.xcconfig"; path = "Target Support Files/Pods-WikiFillSumitApp/Pods-WikiFillSumitApp.release.xcconfig"; sourceTree = "<group>"; };
+		D313029565CD479E3B0DF74A /* Pods-WikiFillSumitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiFillSumitApp.debug.xcconfig"; path = "Target Support Files/Pods-WikiFillSumitApp/Pods-WikiFillSumitApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0C873138B6FFDE37D0AD2C /* Pods_WikiFillSumitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		463ECB7223BDF70D00415081 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				466FE93123BA6476002D6AA3 /* ViewController.swift */,
+				463ECB7323BDF73500415081 /* LevelViewController.swift */,
+				4652EB4323BDFBD200AAD8E2 /* GameViewController.swift */,
+				46AA758723BFF3B600B04961 /* ResultViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		465E4CA323BE460800630A77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				465E4CA423BE462600630A77 /* LevelViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		465E4CA623BE462F00630A77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				465E4CA723BE465000630A77 /* WikiPediaPageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		465E4CA923BE46AC00630A77 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				465E4CAB23BE46AC00630A77 /* NetworkManagerWrapper.swift */,
+				465E4CAC23BE46AC00630A77 /* ApiCall.swift */,
+				465E4CAE23BE46AC00630A77 /* ResponseObject.swift */,
+				465E4CAF23BE46AC00630A77 /* RequestParameter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		466FE92123BA6476002D6AA3 = {
 			isa = PBXGroup;
 			children = (
 				466FE92C23BA6476002D6AA3 /* WikiFillSumitApp */,
 				466FE92B23BA6476002D6AA3 /* Products */,
+				EF420C99F77AC37746EE06BA /* Pods */,
+				832EFB2649457F98A7007F13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,55 @@
 		466FE92C23BA6476002D6AA3 /* WikiFillSumitApp */ = {
 			isa = PBXGroup;
 			children = (
+				465E4CA923BE46AC00630A77 /* Network */,
+				465E4CA623BE462F00630A77 /* Model */,
+				465E4CA323BE460800630A77 /* ViewModel */,
+				463ECB7223BDF70D00415081 /* ViewController */,
+				466FE94123BA679B002D6AA3 /* CustomViews */,
 				466FE92D23BA6476002D6AA3 /* AppDelegate.swift */,
+				466FE94A23BA7794002D6AA3 /* Resources */,
 				466FE92F23BA6476002D6AA3 /* SceneDelegate.swift */,
-				466FE93123BA6476002D6AA3 /* ViewController.swift */,
 				466FE93323BA6476002D6AA3 /* Main.storyboard */,
 				466FE93623BA6478002D6AA3 /* Assets.xcassets */,
 				466FE93823BA6478002D6AA3 /* LaunchScreen.storyboard */,
 				466FE93B23BA6478002D6AA3 /* Info.plist */,
 			);
 			path = WikiFillSumitApp;
+			sourceTree = "<group>";
+		};
+		466FE94123BA679B002D6AA3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				466FE94223BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.swift */,
+				466FE94323BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		466FE94A23BA7794002D6AA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				465E4C9F23BE45DB00630A77 /* DragInteraction.swift */,
+				465E4CA023BE45DB00630A77 /* DropInteraction.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		832EFB2649457F98A7007F13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20FC7B761B2C61E9568E70A2 /* Pods_WikiFillSumitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF420C99F77AC37746EE06BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D313029565CD479E3B0DF74A /* Pods-WikiFillSumitApp.debug.xcconfig */,
+				8D8882EB58ADCC4FB4D1F2D7 /* Pods-WikiFillSumitApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 466FE93E23BA6478002D6AA3 /* Build configuration list for PBXNativeTarget "WikiFillSumitApp" */;
 			buildPhases = (
+				7B597963710908D6048F2338 /* [CP] Check Pods Manifest.lock */,
 				466FE92623BA6476002D6AA3 /* Sources */,
 				466FE92723BA6476002D6AA3 /* Frameworks */,
 				466FE92823BA6476002D6AA3 /* Resources */,
+				A95718B96FC827B2C71BFCEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +241,74 @@
 				466FE93A23BA6478002D6AA3 /* LaunchScreen.storyboard in Resources */,
 				466FE93723BA6478002D6AA3 /* Assets.xcassets in Resources */,
 				466FE93523BA6476002D6AA3 /* Main.storyboard in Resources */,
+				466FE94523BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B597963710908D6048F2338 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WikiFillSumitApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95718B96FC827B2C71BFCEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiFillSumitApp/Pods-WikiFillSumitApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiFillSumitApp/Pods-WikiFillSumitApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WikiFillSumitApp/Pods-WikiFillSumitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		466FE92623BA6476002D6AA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465E4CA123BE45DC00630A77 /* DragInteraction.swift in Sources */,
 				466FE93223BA6476002D6AA3 /* ViewController.swift in Sources */,
+				463ECB7423BDF73500415081 /* LevelViewController.swift in Sources */,
+				465E4CA523BE462600630A77 /* LevelViewModel.swift in Sources */,
+				465E4CA823BE465000630A77 /* WikiPediaPageModel.swift in Sources */,
+				46AA758823BFF3B600B04961 /* ResultViewController.swift in Sources */,
+				465E4CB523BE46AC00630A77 /* RequestParameter.swift in Sources */,
 				466FE92E23BA6476002D6AA3 /* AppDelegate.swift in Sources */,
+				465E4CB423BE46AC00630A77 /* ResponseObject.swift in Sources */,
+				465E4CB123BE46AC00630A77 /* NetworkManagerWrapper.swift in Sources */,
 				466FE93023BA6476002D6AA3 /* SceneDelegate.swift in Sources */,
+				465E4CA223BE45DC00630A77 /* DropInteraction.swift in Sources */,
+				4652EB4423BDFBD200AAD8E2 /* GameViewController.swift in Sources */,
+				465E4CB223BE46AC00630A77 /* ApiCall.swift in Sources */,
+				466FE94423BA67DA002D6AA3 /* WikiFillInBlanksCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +450,13 @@
 		};
 		466FE93F23BA6478002D6AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D313029565CD479E3B0DF74A /* Pods-WikiFillSumitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q27SY83QDC;
 				INFOPLIST_FILE = WikiFillSumitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +470,13 @@
 		};
 		466FE94023BA6478002D6AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8882EB58ADCC4FB4D1F2D7 /* Pods-WikiFillSumitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q27SY83QDC;
 				INFOPLIST_FILE = WikiFillSumitApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

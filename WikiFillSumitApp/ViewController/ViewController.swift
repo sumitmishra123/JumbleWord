@@ -8,13 +8,18 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
+
+    
+    @IBOutlet var playbtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
+        navigationController?.navigationBar.isUserInteractionEnabled = false
     }
-
-
+    @IBAction func onClickPlayBtn(_ sender: Any) {
+    }
 }
 
